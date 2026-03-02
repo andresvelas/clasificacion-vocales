@@ -32,7 +32,9 @@ setup(
     "librosa==0.10.2.post1",
     "matplotlib==3.8.4",
     "seaborn==0.13.2",
-    "pyarrow==15.0.2"
+    "pyarrow==15.0.2",
+    'scikit-learn',
+    'tensorflow'
     ],
     author=authors,
     author_email=emails,

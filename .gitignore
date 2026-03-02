@@ -1,0 +1,13 @@
+.env
+**/__pycache__/
+**/.pytest_cache/
+**/.venv/
+**/*.egg-info/
+
+# =========================
+# Ignorar datos del proyecto por motivos de privacidad y consentimiento
+# =========================
+data/*
+
+src/*/*
+!src/*.py
